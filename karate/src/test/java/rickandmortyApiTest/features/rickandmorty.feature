@@ -3,7 +3,6 @@ Feature: Teste de API utilizando a API do Rick and Morty
 
 Background: background a ser executado antes do teste
     * url 'https://rickandmortyapi.com/api'
-    * def personagens = read('characters.json')
 
 Scenario: Testando a conexão com servidor e se tem quantidade esperada de retorno
     Given path '/character'
