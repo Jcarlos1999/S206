@@ -6,7 +6,7 @@ Especificações
 =================
 <!--ts-->
    * Utilizado a API https://rickandmortyapi.com para realização dos testes)
-   * [POM](#https://github.com/Jcarlos1999/S206/blob/master/karate/pom.xml)
+   * [POM #https://github.com/Jcarlos1999/S206/blob/master/karate/pom.xml](#https://github.com/Jcarlos1999/S206/blob/master/karate/pom.xml)
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
