@@ -5,7 +5,7 @@
 Especificações
 =================
 <!--ts-->
-   * [Sobre](Utilizado a API https://rickandmortyapi.com para realização dos testes)
+   * (#tabela-de-conteudo)Utilizado a API https://rickandmortyapi.com para realização dos testes)
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
