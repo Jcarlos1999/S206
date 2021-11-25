@@ -6,14 +6,7 @@ Especificações
 =================
 <!--ts-->
    * Utilizado a API https://rickandmortyapi.com para realização dos testes)
-   * [Tabela de Conteudo]
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
+   * [Dependências POM](#https://github.com/Jcarlos1999/S206/blob/master/karate/pom.xml)
    * [Tests](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
