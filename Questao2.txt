@@ -1,0 +1,7 @@
+1 - Foi desenvolvidas uma suíte de teste, com 6 cenários de teste.
+2 - Todos os testes são automaticos, é só executar e ser feliz.
+3 - Se locoliza logo após os afetatos serem criados.
+4 - Todos os testes são funcionais.
+5 - Não, são testes unitarios, focados em uma unica parte de um sistema
+6 - Precisa-se que acabar nova atualização no software seja executado o teste novamente
+para garantir que o software ainda está funcionando normalmente
