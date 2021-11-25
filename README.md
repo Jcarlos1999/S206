@@ -5,7 +5,7 @@
 Especificações
 =================
 <!--ts-->
-   * Utilizado a API https://rickandmortyapi.com para realização dos testes)
+   * Utilizado a API https://rickandmortyapi.com para realização dos testes
    * [POM](https://github.com/Jcarlos1999/S206/blob/master/karate/pom.xml)
    * Necessario ter instalado o Maven
    * Execução via Terminal
