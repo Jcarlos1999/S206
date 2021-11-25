@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-1-thread-4","id":4},{"content":"pool-1-thread-5","id":5}];
+var items = [{"id":1,"group":1,"content":"rickandmortyApiTest\/features\/rickandmorty[1:8]","start":1637808412751,"end":1637808413700,"title":"rickandmortyApiTest\/features\/rickandmorty[1:8] 23:46:52.751-23:46:53.700 Testando a conexão com servidor e se tem quantidade esperada de retorno"},{"id":2,"group":2,"content":"rickandmortyApiTest\/features\/rickandmorty[2.1:23]","start":1637808412751,"end":1637808413702,"title":"rickandmortyApiTest\/features\/rickandmorty[2.1:23] 23:46:52.751-23:46:53.702 Testando se alguns pesonagens estão vivos e sua especie"},{"id":3,"group":3,"content":"rickandmortyApiTest\/features\/rickandmorty[2.2:24]","start":1637808412751,"end":1637808413724,"title":"rickandmortyApiTest\/features\/rickandmorty[2.2:24] 23:46:52.751-23:46:53.724 Testando se alguns pesonagens estão vivos e sua especie","className":"failed"},{"id":4,"group":4,"content":"rickandmortyApiTest\/features\/rickandmorty[2.3:25]","start":1637808412751,"end":1637808413705,"title":"rickandmortyApiTest\/features\/rickandmorty[2.3:25] 23:46:52.751-23:46:53.705 Testando se alguns pesonagens estão vivos e sua especie"},{"id":5,"group":5,"content":"rickandmortyApiTest\/features\/rickandmorty[2.4:26]","start":1637808412751,"end":1637808413702,"title":"rickandmortyApiTest\/features\/rickandmorty[2.4:26] 23:46:52.751-23:46:53.702 Testando se alguns pesonagens estão vivos e sua especie"},{"id":6,"group":2,"content":"rickandmortyApiTest\/features\/rickandmorty[2.5:27]","start":1637808413715,"end":1637808413912,"title":"rickandmortyApiTest\/features\/rickandmorty[2.5:27] 23:46:53.715-23:46:53.912 Testando se alguns pesonagens estão vivos e sua especie","className":"failed"},{"id":7,"group":5,"content":"rickandmortyApiTest\/features\/rickandmorty[3:31]","start":1637808413714,"end":1637808413958,"title":"rickandmortyApiTest\/features\/rickandmorty[3:31] 23:46:53.714-23:46:53.958 Testando os tipos de dados do schema dos dados e o tipo de localização","className":"failed"},{"id":8,"group":4,"content":"rickandmortyApiTest\/features\/rickandmorty[4:40]","start":1637808413719,"end":1637808414565,"title":"rickandmortyApiTest\/features\/rickandmorty[4:40] 23:46:53.719-23:46:54.565 Conferindo se API responde a busca de multiplos episodios"},{"id":9,"group":1,"content":"rickandmortyApiTest\/features\/rickandmorty[5.1:52]","start":1637808413727,"end":1637808414521,"title":"rickandmortyApiTest\/features\/rickandmorty[5.1:52] 23:46:53.727-23:46:54.521 Testando a busca de multiplos persogens com filtros"},{"id":10,"group":3,"content":"rickandmortyApiTest\/features\/rickandmorty[5.2:53]","start":1637808413733,"end":1637808414944,"title":"rickandmortyApiTest\/features\/rickandmorty[5.2:53] 23:46:53.733-23:46:54.944 Testando a busca de multiplos persogens com filtros"},{"id":11,"group":2,"content":"rickandmortyApiTest\/features\/rickandmorty[5.3:54]","start":1637808413920,"end":1637808414695,"title":"rickandmortyApiTest\/features\/rickandmorty[5.3:54] 23:46:53.920-23:46:54.695 Testando a busca de multiplos persogens com filtros"},{"id":12,"group":5,"content":"rickandmortyApiTest\/features\/rickandmorty[6:57]","start":1637808413964,"end":1637808414553,"title":"rickandmortyApiTest\/features\/rickandmorty[6:57] 23:46:53.964-23:46:54.553 Testando retorno da API ao encontrar numa request não existente"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
